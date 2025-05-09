@@ -11,17 +11,6 @@ SWAGEN is a framework designed to enhance the durability of swarms—such as ani
 * **Novel Configurations**: Discovers optimized spatial configurations that simultaneously minimize predation risks and enhance survivability.
 
 
-## Repository Structure
-
-```
-├── swagen/                      # Datasets for swarm configurations
-├── models/                    # SWAGEN generative models
-├── scripts/                   # Training and evaluation scripts
-├── visualization/             # Scripts and notebooks for visualizations
-├── requirements.txt           # Dependencies
-└── README.md                  # This file
-```
-
 ## Installation
 
 Clone this repository:
@@ -39,7 +28,7 @@ pip install -r requirements.txt
 
 ## Downloading the Code
 
-The core codebase files for SWAGEN are available below. Download each file and place them in the `scripts/` folder of the repository:
+The core codebase files for SWAGEN are available below. Download each file and place them in the `swagen/` folder of the repository:
 
 * [train.py](#)
 * [shapes.py](#)
@@ -103,4 +92,4 @@ This project is licensed under the MIT License. See [LICENSE](LICENSE) for detai
 
 ## Contact
 
-For questions or collaboration, please contact [Mor Nitzan](mailto:mor.nitzan@mail.huji.ac.il).
+For questions or collaboration, please contact [Jonathan Karin](mailto:jonathan.karin@mail.huji.ac.il).
