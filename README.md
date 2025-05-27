@@ -67,7 +67,7 @@ python scripts/train.py
 
 ### Evaluating
 
-To run the predation simulation:
+To run the predation simulation ( replace 'generate_agent_positions' with the swarm shape):
 
 ```bash
 python scripts/simulation.py
