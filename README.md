@@ -20,7 +20,7 @@ git clone https://github.com/nitzanlab/SwaGen.git
 cd SwaGen
 ```
 
-Install dependencies:
+Install:
 
 ```bash
 pip install .
@@ -67,18 +67,11 @@ python scripts/train.py
 
 ### Evaluating
 
-To evaluate and visualize swarm durability:
+To run the predation simulation:
 
 ```bash
 python scripts/simulation.py
 ```
-
-### Generating Configurations
-
-Generate optimized swarm configurations:
-
-```bash
-python scripts/train.py --generate
 ```
 
 ## Dependencies
@@ -88,18 +81,11 @@ python scripts/train.py --generate
 * NumPy
 * Matplotlib
 
-Complete dependencies can be found in [requirements.txt](requirements.txt).
-
 ## Citation
 
 If you use this work, please cite:
 
 ```
-@article{karin2024swagen,
-  title={Enhancing Swarms' Durability to Threats via Graph Signal Processing and GNN-based Generative Modeling},
-  author={Jonathan Karin, Zoe Piran, Mor Nitzan},
-  year={2024}
-}
 ```
 
 ## License
