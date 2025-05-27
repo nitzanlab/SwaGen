@@ -23,7 +23,7 @@ cd SwaGen
 Install dependencies:
 
 ```bash
-pip install -r requirements.txt
+pip install .
 ```
 
 ## Downloading the Code
@@ -40,6 +40,22 @@ The core codebase files for SWAGEN are available below. Download each file and p
 Ensure the files maintain their names exactly as provided.
 
 ## Usage
+
+## Generating swarm shapes
+
+Use the shape functions in `shapes.py` to create structured 2D swarm formations:
+
+```python
+from shapes import (
+    arrange_agents_in_rectangle,
+    arrange_agents_in_arrow,
+    arrange_agents_in_v,
+    arrange_agents_in_v_triangle_wave,
+    arrange_agents_in_kite
+)
+
+points = arrange_agents_in_rectangle(N=100, alpha=5)
+
 
 ### Training
 
