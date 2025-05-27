@@ -201,7 +201,7 @@ def update_agents(agents_pos, agents_vel, live_array, agents_informed,
         new_agents_pos[i][1] %= height
     return new_agents_pos, new_agents_vel
 
-def run_single_simulation(res_array_naive, res_array_predicted, model, simulation_index):
+def run_single_simulation(res_array_naive, simulation_index):
     N = 52
     width, height = 1000, 1000
     min_dist = 5
@@ -243,20 +243,18 @@ def run_single_simulation(res_array_naive, res_array_predicted, model, simulatio
     print(f"Simulation {simulation_index + 1} completed.")
     res_array_naive.append(np.sum(live_array) - 2)
 
-def run_simulations(res_array_naive, res_array_predicted, model):
+def run_simulations(res_array):
     threads = []
-    for i in range(1000):
-        thread = threading.Thread(target=run_single_simulation, args=(res_array_naive, res_array_predicted, model, i))
+    for i in range(250):
+        thread = threading.Thread(target=run_single_simulation, args=(res_array, i))
         threads.append(thread)
         thread.start()
     for thread in threads:
         thread.join()
 
 if __name__ == '__main__':
-    res_array_naive = []
-    res_array_predicted = []
-    run_simulations(res_array_naive, res_array_predicted, model=1)
-    print("Naive Results:", res_array_naive)
-    print("Predicted Results:", res_array_predicted)
-    print("Mean:", np.mean(res_array_naive))
-    print("Variance:", np.var(res_array_naive))
+    res_array = []
+    run_simulations(res_array)
+    print("Results:", res_array)
+    print("Mean:", np.mean(res_array))
+    print("Variance:", np.var(res_array))
