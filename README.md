@@ -55,7 +55,7 @@ from shapes import (
 )
 
 points = arrange_agents_in_rectangle(N=100, alpha=5)
-
+```
 
 ### Training
 
