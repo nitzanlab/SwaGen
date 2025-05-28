@@ -72,7 +72,7 @@ To run the predation simulation ( replace 'generate_agent_positions' with the sw
 ```bash
 python scripts/simulation.py
 ```
-```
+
 
 ## Dependencies
 
@@ -85,8 +85,6 @@ python scripts/simulation.py
 
 If you use this work, please cite:
 
-```
-```
 
 ## License
 
