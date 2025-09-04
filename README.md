@@ -85,7 +85,14 @@ python scripts/simulation.py
 
 If you use this work, please cite:
 
-
+''
+@article{karin2025enhancing,
+  title={Enhancing Swarms Durability to Threats via Graph Signal Processing and GNN-based Generative Modeling},
+  author={Karin, Jonathan and Piran, Zoe and Nitzan, Mor},
+  journal={arXiv preprint arXiv:2507.03039},
+  year={2025}
+}
+''
 ## License
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
