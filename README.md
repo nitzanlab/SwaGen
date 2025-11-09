@@ -73,7 +73,9 @@ To run the predation simulation ( replace 'generate_agent_positions' with the sw
 python scripts/simulation.py
 ```
 
-
+## Reproducement of the 'kite'
+For easy reproducement of the 'kite' please see the followign notebook:
+[https://github.com/nitzanlab/SwaGen/blob/main/reproducing%20kite.ipynb][https://github.com/nitzanlab/SwaGen/blob/main/reproducing%20kite.ipynb]
 ## Dependencies
 
 * PyTorch
