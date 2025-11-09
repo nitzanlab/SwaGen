@@ -75,7 +75,7 @@ python scripts/simulation.py
 
 ## Reproducement of the 'kite'
 For easy reproducement of the 'kite' please see the followign notebook:
-[https://github.com/nitzanlab/SwaGen/blob/main/reproducing%20kite.ipynb][https://github.com/nitzanlab/SwaGen/blob/main/reproducing%20kite.ipynb]
+[[[https://github.com/nitzanlab/SwaGen/blob/main/reproducing%20kite.ipynb](https://github.com/nitzanlab/SwaGen/blob/main/reproducing_kite.ipynb)](https://github.com/nitzanlab/SwaGen/blob/main/reproducing_kite.ipynb)]
 ## Dependencies
 
 * PyTorch
