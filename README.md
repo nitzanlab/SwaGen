@@ -11,6 +11,10 @@ SWAGEN is a framework designed to enhance the durability of swarms—such as ani
 * **Novel Configurations**: Discovers optimized spatial configurations that simultaneously minimize predation risks and enhance survivability.
 
 
+## Reproducement of the 'kite'
+For easy reproducement of the 'kite' please see the followign notebook:
+https://github.com/nitzanlab/SwaGen/blob/main/reproducing_kite.ipynb
+
 ## Installation
 
 Clone this repository:
@@ -72,10 +76,6 @@ To run the predation simulation ( replace 'generate_agent_positions' with the sw
 ```bash
 python scripts/simulation.py
 ```
-
-## Reproducement of the 'kite'
-For easy reproducement of the 'kite' please see the followign notebook:
-[[[https://github.com/nitzanlab/SwaGen/blob/main/reproducing%20kite.ipynb](https://github.com/nitzanlab/SwaGen/blob/main/reproducing_kite.ipynb)](https://github.com/nitzanlab/SwaGen/blob/main/reproducing_kite.ipynb)]
 ## Dependencies
 
 * PyTorch
